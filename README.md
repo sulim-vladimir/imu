@@ -14,4 +14,6 @@ Each 10th reading square wave is formed on digital output D3 of Arduino Nano pro
 
 Gyroscope and accelerometer values have constant offsets that are different for each sensor and therefore it needs calibration. I2C Device Library has functions for automatic calibration of sensor and [examples of their usage](https://github.com/jrowberg/i2cdevlib/blob/master/Arduino/MPU6050). During calibration series of readings from MPU-6050 are done while it is standing still. After calibration offsets should be updated in firmware code directly.
 
-![Arduino Nano and GY-521 connection circuit](images/arduino-nano-mpu6050.png)
+Below is IMU connection circuit.
+
+![](images/arduino-nano-mpu6050.png)
